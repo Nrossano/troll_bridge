@@ -32,7 +32,7 @@ function trollBattle() {
 		break;
 
 		case "BRIBE":
-			var money = window.prompt("You have to pay the troll to, do you have enough money? (YES or NO)").toUpperCase();
+			var money = window.prompt("You have to pay the troll toll, do you have enough money? (YES or NO)").toUpperCase();
 			var dollars = window.prompt("How much money are you carrying?");
 			dollars = parseInt(dollars);
 			if(money === "YES" && dollars >= 50) {
